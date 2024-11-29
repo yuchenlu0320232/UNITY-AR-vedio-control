@@ -1,3 +1,7 @@
+⚠️ Due to the update of unity and vuforia, I found during the learning process that some of the previous code has been replaced and deprecated, so some of the code files in the tutorial only work with earlier versions, the specific requirements are slightly different and not applicable to all versions. The versions of unity I use are Unity 2022.3.48f1(64-bit) and vuforia10.27.
+⚠️Device requirements for AR testing. I chose Android in Unity export (Huawei's Hongmeng system is also applicable after testing)
+
+
 VideoCtrl Unity script
 
 The script allows the VideoPlayer component to be controlled through vuforia in Unity, providing the ability to pause, play, stop the video, and set the video to play from the first frame.
@@ -20,12 +24,6 @@ PinchZoom Unity script
 
 In Unity, the script implements the function of scaling objects through touch gestures (two-finger pinching gestures), which is suitable for touch operations on mobile devices.
 
-Here is a Chinese README example of your code:
-
-PinchZoom Unity script
-
-The Unity script implements the function of scaling objects through touch gestures (two-finger pinching gestures), which is suitable for touch operations on mobile devices.
-
 Code specification
 
 Check for two touch points per frame (Input.touchCount == 2).
@@ -42,4 +40,7 @@ Supplementary statement
 If the scaling of an object needs to be limited, you can add a maximum or minimum scaling limit to the transform.localScale update logic.
 
 
-⚠️ Due to the update of unity and vuforia, I found during the learning process that some of the previous code has been replaced and deprecated, so some of the code files in the tutorial only work with earlier versions, the specific requirements are slightly different and not applicable to all versions. The versions of unity I use are Unity 2022.3.48f1(64-bit) and vuforia10.27.
+For more information, please refer to the official website https://developer.vuforia.com/library/project-migration/how-migrate-unity-project
+
+You will need to register an account to apply for a license and upload an identification image in the Target Manager (the identification image should preferably have contrasting colors)
+https://developer.vuforia.com/home
