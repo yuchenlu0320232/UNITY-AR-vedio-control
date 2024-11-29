@@ -1,4 +1,5 @@
 ⚠️ Due to the update of unity and vuforia, I found during the learning process that some of the previous code has been replaced and deprecated, so some of the code files in the tutorial only work with earlier versions, the specific requirements are slightly different and not applicable to all versions. The versions of unity I use are Unity 2022.3.48f1(64-bit) and vuforia10.27.
+
 ⚠️Device requirements for AR testing. I chose Android in Unity export (Huawei's Hongmeng system is also applicable after testing)
 
 
