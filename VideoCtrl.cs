@@ -24,7 +24,7 @@ public class VideoCtrl : MonoBehaviour
     {
         source.Pause();
         
-        // 将视频的当前时间设置为第一帧
+        // Set the current time of the video to the first frame
         source.frame = 0;
     }
     
